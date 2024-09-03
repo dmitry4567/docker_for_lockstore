@@ -1,0 +1,1 @@
+{"version":3,"file":"add-photo-to-product.dto.js","sourceRoot":"","sources":["../../../src/photo-item/dto/add-photo-to-product.dto.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,6CAA8C;AAE9C,MAAa,qBAAqB;CAWjC;AAXD,sDAWC;AATC;IADC,IAAA,qBAAW,GAAE;;wDACI;AAQlB;IANC,IAAA,qBAAW,EAAC;QACX,IAAI,EAAE,OAAO;QACb,KAAK,EAAE;YACL,IAAI,EAAE,MAAM;SACb;KACF,CAAC;;qDACa"}

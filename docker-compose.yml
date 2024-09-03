@@ -1,0 +1,37 @@
+services:
+  flutter:
+    build:
+      context: ./LockStoreApp
+    container_name: flutter
+    ports:
+      - "9000:9000"
+      
+  nestjs:
+    build:
+      context: ./lockStore
+    container_name: nestjs
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - DB_HOST=host.docker.internal
+      - DB_PORT=5433
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=2205
+      - DB_NAME=postgres
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres 
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=2205
+      - POSTGRES_PORT=5433
+      - POSTGRES_DB=postgres 
+    container_name: postgres 
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data 
+    ports:
+      - '5433:5433'
+    command: -p 5433

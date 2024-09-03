@@ -1,0 +1,1 @@
+{"version":3,"file":"update-photos-to-product.dto.js","sourceRoot":"","sources":["../../../src/photo-item/dto/update-photos-to-product.dto.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,6CAA8C;AAE9C,MAAa,wBAAwB;CAQpC;AARD,4DAQC;AADC;IANC,IAAA,qBAAW,EAAC;QACX,IAAI,EAAE,OAAO;QACb,KAAK,EAAE;YACL,IAAI,EAAE,MAAM;SACb;KACF,CAAC;;wDACa"}
